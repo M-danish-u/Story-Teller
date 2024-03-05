@@ -5,14 +5,14 @@ const HomeCenterCompnent = () => {
     <div className=" w-full md:h-[228p] md:flex flex-col g-slate-500">
       <div className="md:flex flex-row b-red-500 md:justify-between">
         <div className="md:flex flex-col">
-          <p className="font-bold text-2xl text-white md:font-bold sm:text-4xl">
+          <p className="font-bold text-2xl text-white md:font-bold sm:text-[37px] leading-[44px]">
             We just not create bags
             <br />
             we create stories,
             <br />
             ultimate travelling
           </p>
-          <p className="font-thin text-sm text-white mt-6 max-w-[536px]">
+          <p className="font-thin text-[16px] text-white mt-6 max-w-[536px] leading-[27px]">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis eius
             saepe voluptatem, consequatur harum explicabo, eos quasi ratione
             dicta iste perspiciatis tenetur quia eligendi praesentium nam quas
@@ -28,7 +28,7 @@ const HomeCenterCompnent = () => {
         
         </div>
       </div>
-      <p className="text sm bg-[#CAEE00] w-[159px] h-[49px] rounded-[60px] flex items-center justify-center mt-6">Read more</p>
+      <p className="text-[15px] bg-[#CAEE00] w-[159px] h-[49px] rounded-[60px] flex items-center justify-center mt-6">Read more</p>
 
     </div>
   );

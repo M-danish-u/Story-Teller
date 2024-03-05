@@ -1,15 +1,17 @@
 import React from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Home from '../components/Home'
+// import { BrowserRouter, Route, Routes } from 'react-router-dom'
+// import Home from '../Pages/Home'
+// import About from '../Pages/About'
 
 const AppRouter = () => {
-  return (
-    <BrowserRouter>
-    <Routes>
-        <Route path='/' element={<Home/>}/>
-    </Routes>
-    </BrowserRouter>
-  )
+//   return (
+//     // <BrowserRouter>
+//     // <Routes>
+//     //     <Route path='/' element={<Home/>}/>
+//     //     <Route path='about' element={<About/>}/>
+//     // </Routes>
+//     // </BrowserRouter>
+//   )
 }
 
 export default AppRouter

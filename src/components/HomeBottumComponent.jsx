@@ -7,7 +7,7 @@ import fb from '../Assets//facebookfacebook.png'
 
 const HomeBottumComponent = () => {
   return (
-    <div className="w-full h-[34px b-yellow-400 text-sm flex text-white flex-col md:flex-row md:justify-between">
+    <div className="w-full h-[34px b-yellow-400 text-[15px] flex text-white flex-col md:flex-row md:justify-between">
       {/* first portion */}
       <div className=" flex flex-row items-center justify-between  md:gap-16 lg::gap-20">
         <p >Our Sub Brand</p>

@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+font-face {
+    font-family: 'helvetica'; /* Specify your desired font family name */
+    src: url('./Assets//Fonts/helvetica-neue-5-cufonfonts/HelveticaNeueBlackItalic.otf') format('opentype'); /* Adjust the path accordingly */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'helvetica', sans-serif; /* Use the specified font family */
+  }

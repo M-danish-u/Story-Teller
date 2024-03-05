@@ -11,7 +11,7 @@ export const NavBar = () => {
   };
 
   return (
-    <div className="h-[49px] flex flex-row items-center justify-between">
+    <div className="h-[49px] flex flex-row items-center justify-between z-50">
       <TiThMenu
         className="text-[#CAEE00] text-2xl md:hidden cursor-pointer"
         onClick={handleMenuToggle}
@@ -24,7 +24,7 @@ export const NavBar = () => {
         } lg:translate-x-full`}
       >
         <TiTimes
-          className="text-white text-2xl cursor-pointer absolute top-4 right-4"
+          className="text-white text-3xl cursor-pointer  top-4 right-4"
           onClick={handleMenuToggle}
         />
         <ul className="flex flex-col items-center justify-center px-20 h-full p-4">
@@ -40,10 +40,10 @@ export const NavBar = () => {
 
       
 
-      <ul className=" flex md:gap-5 lg:gap-10">
+      <ul className=" flex md:gap-5 lg:gap-10 text-[15px]">
         <li className="text-white text-xl my-4 cursor-pointer">Home</li>
         <li className="text-white text-xl my-4 cursor-pointer">About</li>
-        <li className="text-white text-xl my-4 cursor-pointer">Product</li>
+        <li className="text-white text-xl my-4 cursor-pointer"> <a href="#product">Product</a></li>
         <li className="text-white text-xl my-4 cursor-pointer">Contact</li>
       </ul>
         <div className="lg:w-[328px] md:w-[295px] h-[49px] pl-4 flex items-center rounded-[60px] border-[1px] bg-[#d9d9d936]">
