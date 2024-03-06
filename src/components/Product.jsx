@@ -17,14 +17,20 @@ const Product = () => {
 
   return (
     <section id="product">
-      <div className="bg-[#101010] text-white px-4 lg:px-[80px] b pt-10 bg-gradient-to-bl from-[#958dffc9] via-[#101010] to-[#101010]" >
+      <div
+        className="bg-[#101010] text-white px-4 lg:px-[80px] b pt-10  "
+        style={{
+          background:
+            "radial-gradient(circle at top right,#958DFF,#101010 38%)",
+        }}
+      >
         <div className="flex justify-between items-center mb-8">
           <h1 className="text-4xl font-bold  ">
             Our <br /> Products
           </h1>
           <span className="flex items-center gap-2">
-          <a href="#">View all Product </a>
-          <FaChevronRight />
+            <a href="#">View all Product </a>
+            <FaChevronRight />
           </span>
         </div>
 
@@ -36,7 +42,7 @@ const Product = () => {
           >
             Items
             <span>
-            <FaSortDown className="text-[#CAEE00]" />
+              <FaSortDown className="text-[#CAEE00]" />
             </span>
           </p>
 
@@ -66,86 +72,86 @@ const Product = () => {
         {/* Desktop Menu */}
         <div className="border-b-2 border-[#CAEE00] hidden md:block">
           <ul className="flex gap-5">
-          <li className="cursor-pointer w-12 border-b-4 border-[#CAEE00] ">
-            All
-          </li>
-          <li className="cursor-pointer w-12 border-b-4 border-transparent hover:border-[#CAEE00] focus:border-[#CAEE00] transition-all duration-300">
-            Men
-          </li>
-          <li className="cursor-pointer w-12 border-b-4 border-transparent hover:border-[#CAEE00] focus:border-[#CAEE00] transition-all duration-300">
-            Ladies
-          </li>
-          <li className="cursor-pointer w-12 border-b-4 border-transparent hover:border-[#CAEE00] focus:border-[#CAEE00] transition-all duration-300">
-            Kids
-          </li>
-          <li className="cursor-pointer w-12 border-b-4 border-transparent hover:border-[#CAEE00] focus:border-[#CAEE00] transition-all duration-300">
-            Sports
-          </li>
-          <li className="cursor-pointer w-12 border-b-4 border-transparent hover:border-[#CAEE00] focus:border-[#CAEE00] transition-all duration-300">
-            Gym
-          </li>
-          <li className="cursor-pointer w-12 border-b-4 border-transparent hover:border-[#CAEE00] focus:border-[#CAEE00] transition-all duration-300">
-            Fishing
-          </li>
+            <li className="cursor-pointer w-12 border-b-4 border-[#CAEE00] ">
+              All
+            </li>
+            <li className="cursor-pointer w-12 border-b-4 border-transparent hover:border-[#CAEE00] focus:border-[#CAEE00] transition-all duration-300">
+              Men
+            </li>
+            <li className="cursor-pointer w-12 border-b-4 border-transparent hover:border-[#CAEE00] focus:border-[#CAEE00] transition-all duration-300">
+              Ladies
+            </li>
+            <li className="cursor-pointer w-12 border-b-4 border-transparent hover:border-[#CAEE00] focus:border-[#CAEE00] transition-all duration-300">
+              Kids
+            </li>
+            <li className="cursor-pointer w-12 border-b-4 border-transparent hover:border-[#CAEE00] focus:border-[#CAEE00] transition-all duration-300">
+              Sports
+            </li>
+            <li className="cursor-pointer w-12 border-b-4 border-transparent hover:border-[#CAEE00] focus:border-[#CAEE00] transition-all duration-300">
+              Gym
+            </li>
+            <li className="cursor-pointer w-12 border-b-4 border-transparent hover:border-[#CAEE00] focus:border-[#CAEE00] transition-all duration-300">
+              Fishing
+            </li>
             {/* Add similar classes for other list items */}
           </ul>
         </div>
 
         {/* Product Cards */}
         <div className="flex  md:flex-row flex-col items-center  justify-between mt-5">
-        <div className=" flex flex-col w-80 md:w-full"> 
-          <img src={BagImg} alt="Bagimg" />
-          <span className="block text-center mt-2 font-bold text-xl">
-            Trolly Bag
-          </span>
-          <span className="block text-center">250 Aed</span>
-        </div>
-        <div className=" flex flex-col w-80 md:w-full"> 
-          {" "}
-          <img src={BagImg} alt="Bagimg" />
-          <span className="block text-center mt-2 font-bold text-xl">
-            Trolly Bag
-          </span>
-          <span className="block text-center">250 Aed</span>{" "}
-        </div>
-        <div className=" flex flex-col w-80 md:w-full">
-          {" "}
-          <img src={BagImg} alt="Bagimg" />
-          <span className="block text-center mt-2 font-bold text-xl">
-            Trolly Bag
-          </span>
-          <span className="block text-center">250 Aed</span>{" "}
-        </div>
-        <div className=" flex flex-col w-80 md:w-full">
-          {" "}
-          <img src={BagImg} alt="Bagimg" />
-          <span className="block text-center mt-2 font-bold text-xl">
-            Trolly Bag
-          </span>
-          <span className="block text-center">250 Aed</span>{" "}
-        </div>
+          <div className=" flex flex-col w-80 md:w-full">
+            <img src={BagImg} alt="Bagimg" />
+            <span className="block text-center mt-2 font-bold text-xl">
+              Trolly Bag
+            </span>
+            <span className="block text-center">250 Aed</span>
+          </div>
+          <div className=" flex flex-col w-80 md:w-full">
+            {" "}
+            <img src={BagImg} alt="Bagimg" />
+            <span className="block text-center mt-2 font-bold text-xl">
+              Trolly Bag
+            </span>
+            <span className="block text-center">250 Aed</span>{" "}
+          </div>
+          <div className=" flex flex-col w-80 md:w-full">
+            {" "}
+            <img src={BagImg} alt="Bagimg" />
+            <span className="block text-center mt-2 font-bold text-xl">
+              Trolly Bag
+            </span>
+            <span className="block text-center">250 Aed</span>{" "}
+          </div>
+          <div className=" flex flex-col w-80 md:w-full">
+            {" "}
+            <img src={BagImg} alt="Bagimg" />
+            <span className="block text-center mt-2 font-bold text-xl">
+              Trolly Bag
+            </span>
+            <span className="block text-center">250 Aed</span>{" "}
+          </div>
         </div>
 
         {/* Additional Information */}
         <div className="mt-16 flex items-center flex-col md:flex-row justify-between gap-6 md:gap-0">
-        <img className="" src={ProductLogo} alt="ProductLogo" />
+          <img className="" src={ProductLogo} alt="ProductLogo" />
 
-        <div className="flex flex-col  ">
-          <img src={ClockIcon} alt="ClockIcon" />{" "}
-          <span className="text-[#CAEE00] text-3xl font-black">24x7</span>
-          <span className="text-[#CAEE00]">Services</span>
+          <div className="flex flex-col  ">
+            <img src={ClockIcon} alt="ClockIcon" />{" "}
+            <span className="text-[#CAEE00] text-3xl font-black">24x7</span>
+            <span className="text-[#CAEE00]">Services</span>
+          </div>
+          <div className="flex flex-col">
+            <img src={VectorsearchIcon} alt="VectorsearchIcon" />{" "}
+            <span className="text-[#CAEE00] text-3xl font-black">India</span>
+            <span className="text-[#CAEE00]">Made in</span>
+          </div>
+          <div className="flex flex-col">
+            <img src={archivetickIcon} alt="archivetickIcon" className="w-16" />{" "}
+            <span className="text-[#CAEE00] text-3xl font-black">Quality</span>
+            <span className="text-[#CAEE00]"> No Compramise</span>
+          </div>
         </div>
-        <div className="flex flex-col">
-          <img src={VectorsearchIcon} alt="VectorsearchIcon" />{" "}
-          <span className="text-[#CAEE00] text-3xl font-black">India</span>
-          <span className="text-[#CAEE00]">Made in</span>
-        </div>
-        <div className="flex flex-col">
-          <img src={archivetickIcon} alt="archivetickIcon" className="w-16"/>{" "}
-          <span className="text-[#CAEE00] text-3xl font-black">Quality</span>
-          <span className="text-[#CAEE00]"> No Compramise</span>
-        </div>
-      </div>
       </div>
     </section>
   );
