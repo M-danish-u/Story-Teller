@@ -7,7 +7,8 @@ import watsapp from "../Assets/watsapp.png";
 
 const Contact = () => {
   return (
-    <div className="text-[#000000] flex flex-col  md:flex-row  md:justify-between items-center justify-center   p-4   lg:px-[150px] ">
+    <section id="Contact">
+    <div className="text-[#000000] flex flex-col  md:flex-row  md:justify-around items-center justify-center   p-4   lg:px-[150px] ">
       {/* logo */}
       <div className=" mt-28 md:mt-0">
         <img className="w- " src={logo} />
@@ -21,12 +22,12 @@ const Contact = () => {
         <div className="flex flex-col  md:flex-row gap-4">
           {/* our stories */}
           <div className="md:mt-2">
-            <span className="underline ">Our Stories</span>
+            <span className="underline "><a href="#Home">Our Stories</a></span>
             <ul>
-              <li className="underline">About</li>
-              <li className="underline">Product</li>
-              <li className="underline">Achivements</li>
-              <li className="underline">Contact</li>
+              <li className="underline"><a href="#About">About</a></li>
+              <li className="underline"><a href="#Product">Product</a></li>
+              <li className="underline"><a href="#">Achivements</a></li>
+              <li className="underline"><a href="Contact">Contact</a></li>
             </ul>
           </div>
           {/* Address */}
@@ -53,6 +54,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

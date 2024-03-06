@@ -43,17 +43,17 @@ const Product = () => {
             } lg:translate-x-full`}
           >
             <TiTimes
-              className="text-white text-3xl cursor-pointer  top-4 right-4"
+              className="text-black text-3xl cursor-pointer  top-4 right-4"
               onClick={handleItemToggle}
             />
             <ul className="flex flex-col items-center justify-center px-20 h-full p-4">
-              <li className="text-white text-xl my-4 cursor-pointer">All</li>
-              <li className="text-white text-xl my-4 cursor-pointer">Men</li>
-              <li className="text-white text-xl my-4 cursor-pointer">Ladies</li>
-              <li className="text-white text-xl my-4 cursor-pointer">Kids</li>
-              <li className="text-white text-xl my-4 cursor-pointer">Sports</li>
-              <li className="text-white text-xl my-4 cursor-pointer">Gym</li>
-              <li className="text-white text-xl my-4 cursor-pointer">
+              <li className="text-black text-xl my-4 cursor-pointer">All</li>
+              <li className="text-black text-xl my-4 cursor-pointer">Men</li>
+              <li className="text-black text-xl my-4 cursor-pointer">Ladies</li>
+              <li className="text-black text-xl my-4 cursor-pointer">Kids</li>
+              <li className="text-black text-xl my-4 cursor-pointer">Sports</li>
+              <li className="text-black text-xl my-4 cursor-pointer">Gym</li>
+              <li className="text-black text-xl my-4 cursor-pointer">
                 Fishing
               </li>
             </ul>
@@ -88,7 +88,7 @@ const Product = () => {
         </div>
 
         {/* Product Cards */}
-        <div className="flex b-red-400 md:flex-row flex-col items-center gap-2 justify-between mt-5">
+        <div className="flex  md:flex-row flex-col items-center  justify-between mt-5">
         <div className=" flex flex-col w-80 md:w-full"> 
           <img src={BagImg} alt="Bagimg" />
           <span className="block text-center mt-2 font-bold text-xl">
@@ -137,7 +137,7 @@ const Product = () => {
           <span className="text-[#CAEE00]">Made in</span>
         </div>
         <div className="flex flex-col">
-          <img src={archivetickIcon} alt="archivetickIcon" className="md:w-16"/>{" "}
+          <img src={archivetickIcon} alt="archivetickIcon" className="w-16"/>{" "}
           <span className="text-[#CAEE00] text-3xl font-black">Quality</span>
           <span className="text-[#CAEE00]"> No Compramise</span>
         </div>

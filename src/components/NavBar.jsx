@@ -24,14 +24,14 @@ export const NavBar = () => {
         } lg:translate-x-full`}
       >
         <TiTimes
-          className="text-white text-3xl cursor-pointer  top-4 right-4"
+          className="text-black text-3xl cursor-pointer  top-4 right-4"
           onClick={handleMenuToggle}
         />
         <ul className="flex flex-col items-center justify-center px-20 h-full p-4">
-          <li className="text-white text-xl my-4 cursor-pointer">Home</li>
-          <li className="text-white text-xl my-4 cursor-pointer">About</li>
-          <li className="text-white text-xl my-4 cursor-pointer">Product</li>
-          <li className="text-white text-xl my-4 cursor-pointer">Contact</li>
+          <li className="text-black text-xl my-4 cursor-pointer"><a href="#Home">Home</a></li>
+          <li className="text-black text-xl my-4 cursor-pointer"><a href="#About">About</a></li>
+          <li className="text-black text-xl my-4 cursor-pointer"><a href="#product">Product</a></li>
+          <li className="text-black text-xl my-4 cursor-pointer"><a href="#Contact">Contact</a></li>
         </ul>
       </div>
 
@@ -41,12 +41,12 @@ export const NavBar = () => {
       
 
       <ul className=" flex md:gap-5 lg:gap-10 text-[15px]">
-        <li className="text-white text-xl my-4 cursor-pointer">Home</li>
-        <li className="text-white text-xl my-4 cursor-pointer">About</li>
+        <li className="text-white text-xl my-4 cursor-pointer"><a href="#Home">Home</a></li>
+        <li className="text-white text-xl my-4 cursor-pointer"><a href="#About">About</a></li>
         <li className="text-white text-xl my-4 cursor-pointer"> <a href="#product">Product</a></li>
-        <li className="text-white text-xl my-4 cursor-pointer">Contact</li>
+        <li className="text-white text-xl my-4 cursor-pointer"> <a href="#Contact">Contact</a></li>
       </ul>
-        <div className="lg:w-[328px] md:w-[295px] h-[49px] pl-4 flex items-center rounded-[60px] border-[1px] bg-[#d9d9d936]">
+        <div className="lg:w-[328px] md:w-[295px] h-[49px] p-4 flex items-center justify-between rounded-[60px] border-[1px] bg-[#d9d9d936]">
             <input placeholder="Search" type="text "  className="bg-transparent text-white border-none placeholder-white">
             </input>
         <img
