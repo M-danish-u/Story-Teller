@@ -20,16 +20,24 @@ const HomeCenterCompnent = () => {
           </p>
         </div>
         <div className="flex flex-row mt-6 gap-4 md:flex-col ">
-            <div className="w-[35px] h-[35px] flex items-center justify-center text-white rounded-full border-[1px] border-[#CAEE00]">1</div>
-            <div className="w-[35px] h-[35px] flex items-center justify-center text-white rounded-full border-[1px] border-[#CAEE00]">2</div>
+          <div className="w-[35px] h-[35px] flex items-center justify-center text-white rounded-full border-[1px] border-[#CAEE00]">
+            1
+          </div>
+          <div className="w-[35px] h-[35px] flex items-center justify-center text-white rounded-full border-[1px] border-[#CAEE00]">
+            2
+          </div>
 
-            <div className="w-[35px] h-[35px] flex items-center justify-center text-white rounded-full border-[1px] border-[#CAEE00]">3</div>
-            <div className="w-[35px] h-[35px] flex items-center justify-center text-white rounded-full border-[1px] border-[#CAEE00]">4</div>
-        
+          <div className="w-[35px] h-[35px] flex items-center justify-center text-white rounded-full border-[1px] border-[#CAEE00]">
+            3
+          </div>
+          <div className="w-[35px] h-[35px] flex items-center justify-center text-white rounded-full border-[1px] border-[#CAEE00]">
+            4
+          </div>
         </div>
       </div>
-      <p className="text-[15px] bg-[#CAEE00] w-[159px] h-[49px] rounded-[60px] flex items-center justify-center mt-6">Read more</p>
-
+      <p className="text-[15px] bg-[#CAEE00] w-[159px] h-[49px] rounded-[60px] flex items-center justify-center mt-6">
+        Read more
+      </p>
     </div>
   );
 };

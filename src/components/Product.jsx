@@ -6,6 +6,7 @@ import VectorsearchIcon from "../Assets/discountshape.svg";
 import archivetickIcon from "../Assets/archivetick.svg";
 import { TiTimes } from "react-icons/ti";
 import { FaSortDown } from "react-icons/fa";
+import { FaChevronRight } from "react-icons/fa";
 
 const Product = () => {
   const [itemToggle, setItemToggle] = useState(false);
@@ -16,12 +17,15 @@ const Product = () => {
 
   return (
     <section id="product">
-      <div className="bg-[#101010] text-white px-4 lg:px-[80px] pt-10">
+      <div className="bg-[#101010] text-white px-4 lg:px-[80px] bg-gradient-to-bl from-[#958dffc9] via-[#101010] to-[#101010] pt-10">
         <div className="flex justify-between items-center mb-8">
           <h1 className="text-4xl font-bold  ">
             Our <br /> Products
           </h1>
-          <a href="#">View all Product {">"}</a>
+          <span className="flex items-center gap-2">
+          <a href="#">View all Product </a>
+          <FaChevronRight />
+          </span>
         </div>
 
         {/* Mobile Menu Toggle */}

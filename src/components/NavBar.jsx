@@ -17,7 +17,6 @@ export const NavBar = () => {
         onClick={handleMenuToggle}
       />
 
-      
       <div
         className={`fixed top-20 left-0 bg-[#CAEE00] transition-transform md:hidden  ease-in-out duration-300 transform ${
           menuToggle ? "translate-x-0" : "translate-x-[-300px]"
@@ -28,34 +27,52 @@ export const NavBar = () => {
           onClick={handleMenuToggle}
         />
         <ul className="flex flex-col items-center justify-center px-20 h-full p-4">
-          <li className="text-black text-xl my-4 cursor-pointer"><a href="#Home">Home</a></li>
-          <li className="text-black text-xl my-4 cursor-pointer"><a href="#About">About</a></li>
-          <li className="text-black text-xl my-4 cursor-pointer"><a href="#product">Product</a></li>
-          <li className="text-black text-xl my-4 cursor-pointer"><a href="#Contact">Contact</a></li>
+          <li className="text-black text-xl my-4 cursor-pointer">
+            <a href="#Home">Home</a>
+          </li>
+          <li className="text-black text-xl my-4 cursor-pointer">
+            <a href="#About">About</a>
+          </li>
+          <li className="text-black text-xl my-4 cursor-pointer">
+            <a href="#product">Product</a>
+          </li>
+          <li className="text-black text-xl my-4 cursor-pointer">
+            <a href="#Contact">Contact</a>
+          </li>
         </ul>
       </div>
 
-      <img className="h-[33px] w-28" src={logo} alt="Logo" />
+      <img className="" src={logo} alt="Logo" />
       <div className="hidden   md:flex flex-row md:gap-5 lg:gap-10">
-
-      
-
-      <ul className=" flex md:gap-5 lg:gap-10 text-[15px]">
-        <li className="text-white text-xl my-4 cursor-pointer"><a href="#Home">Home</a></li>
-        <li className="text-white text-xl my-4 cursor-pointer"><a href="#About">About</a></li>
-        <li className="text-white text-xl my-4 cursor-pointer"> <a href="#product">Product</a></li>
-        <li className="text-white text-xl my-4 cursor-pointer"> <a href="#Contact">Contact</a></li>
-      </ul>
+        <ul className=" flex md:gap-5 lg:gap-10 text-[15px]">
+          <li className="text-white text-xl my-4 cursor-pointer">
+            <a href="#Home">Home</a>
+          </li>
+          <li className="text-white text-xl my-4 cursor-pointer">
+            <a href="#About">About</a>
+          </li>
+          <li className="text-white text-xl my-4 cursor-pointer">
+            {" "}
+            <a href="#product">Product</a>
+          </li>
+          <li className="text-white text-xl my-4 cursor-pointer">
+            {" "}
+            <a href="#Contact">Contact</a>
+          </li>
+        </ul>
         <div className="lg:w-[328px] md:w-[295px] h-[49px] p-4 flex items-center justify-between rounded-[60px] border-[1px] bg-[#d9d9d936]">
-            <input placeholder="Search" type="text "  className="bg-transparent text-white border-none placeholder-white">
-            </input>
-        <img
-        className='h-[20px] cursor-pointer'
-        src={searchIcon}
-        alt='Search Icon'
-      />
+          <input
+            placeholder="Search"
+            type="text "
+            className="bg-transparent text-white border-none placeholder-white"
+          ></input>
+          <img
+            className="h-[20px] cursor-pointer"
+            src={searchIcon}
+            alt="Search Icon"
+          />
         </div>
-        </div>
+      </div>
     </div>
   );
 };
