@@ -17,7 +17,7 @@ const Product = () => {
 
   return (
     <section id="product">
-      <div className="bg-[#101010] text-white px-4 lg:px-[80px] bg-gradient-to-bl from-[#958dffc9] via-[#101010] to-[#101010] pt-10">
+      <div className="bg-[#101010] text-white px-4 lg:px-[80px] b pt-10 bg-gradient-to-bl from-[#958dffc9] via-[#101010] to-[#101010]" >
         <div className="flex justify-between items-center mb-8">
           <h1 className="text-4xl font-bold  ">
             Our <br /> Products
